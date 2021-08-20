@@ -1,3 +1,9 @@
+html,body{
+	background-color: #f3f3f3;
+	font-family:Arial, Helvetica, sans-serif ;
+
+}
+
 .clear {
 	clear: both;
 }
@@ -10,18 +16,65 @@
 
 #name {
 	float: left;
+	
+
 }
+
 
 #contactDetails {
 	float: right;
+	color: #181818;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
+	font-family: Rokkitt;
+	
+	
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+
+}
+
+#headshot img{
+	border-radius: 200px;
+}
+p{
+	
+	color:#444444;
+}
+ ul{
+	list-style: none;
+}
+
+
+#contactDetails a{
+	color: black;
+}
+#mainArea{
+	border-top: 2px solid #cf8a05;
+
+}
+
+.section1{
+	border-top:1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.section2{
+	border-bottom: 1px solid #dedede;
+
+}
+.section2 ul{
+	column-count: 3;
+	color: #444444;
+}
+#cv{
+	width: 950px;
+	margin: 10px auto;
+
 }
