@@ -32,6 +32,11 @@ h1{
 
 }
 
+#name h2{
+	position: relative;
+	bottom: 20px;
+}
+
 
 #contactDetails {
 	float: right;
